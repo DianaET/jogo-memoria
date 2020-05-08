@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jogo da Memória</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+    />
+    <!-- https://fonts.google.com/specimen/Open+Sans -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- https://fontawesome.com/ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="css/tooplate-style.css" />
+    <!--
+Tooplate 2111 Pro Line
+http://www.tooplate.com/view/2111-pro-line
+-->
+  </head>
+
+  <body>
+    <!-- page header -->
+    <div class="container" id="home">
+      <div class="col-12 text-center">
+        <div class="tm-page-header">
+          <i class="fas fa-4x fa-chart-bar mr-4"></i>
+          <h1 class="d-inline-block text-uppercase">Jogo da Memória</h1>
+        </div>
+      </div>
+    </div>
+    <!-- navbar -->
+    <div class="tm-nav-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-md navbar-light">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#tmMainNav"
+                aria-controls="tmMainNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="tmMainNav">
+                <ul class="navbar-nav mx-auto tm-navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#home"
+                      >Home <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#recursos">Recursos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#regras">Regras</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contate-Nos </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link external" href="jogo.html">Iniciar Jogo</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    </section>
+    <!-- Features -->
+    <div class="container tm-features-section" id="recursos">
+      <div class="row tm-features-row">
+        <section class="col-md-6 col-sm-12 tm-feature-block">
+          <header class="tm-feature-header">
+            <i class="fas fa-5x fa-anchor tm-feature-icon"></i>
+            <h3 class="tm-feature-h">Sobre o Jogo</h3>
+          </header>
+
+          <p style="text-align:justify">
+            Este jogo, É objeto de aprendizagem com foco nos instrumentos de
+            medição física, que nem sempre são reconhecidos ou presentes no
+            cotidiano dos alunos.
+          </p>
+        </section>
+        <section class="col-md-6 col-sm-12 tm-feature-block">
+          <header class="tm-feature-header">
+            <i class="fas fa-5x fa-atom tm-feature-icon"></i>
+            <h3 class="tm-feature-h">Nosso Foco</h3>
+          </header>
+          <p style="text-align:justify">
+            O foco do jogo, seria ensinar aos alunos quais instrumentos são
+            os mais populares e sua nomenclatura correta, servir também como
+            um jeito de trazer maior dinâmica as aulas de física.
+          </p>
+
+        </section>
+      </div>
+    </div>
+
+    <!-- Activities -->
+    <div class="container" id="regras">
+      <div class="row">
+        <div class="col-12">
+          <div class="tm-parallax">
+            <header class="tm-parallax-header">
+              <h2 class="">Regras do Jogo</h2>
+            </header>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="tm-activity-block">
+            <div class="tm-activity-block-text">
+              <h3 class="tm-text-blue">Inicio</h3>
+              <p style="text-align:justify">
+                O jogo segue o principio original do jogo da memória,
+                onde se devem selecionar duas imagens e verificar se elas correspondem,
+                porém nossa versão é um pouco diferente do normal, sendo em vez de imagens iguais,
+                 vinte pares de cartas (imagem-palavra) que iniciarão com a face do verso.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="tm-activity-block mr-lg-0 ml-lg-auto">
+            <div class="tm-activity-block-text">
+              <h3 class="tm-text-blue">Seleção de Cartas</h3>
+              <p style="text-align:justify">
+                A seleção de cartas funciona da seguinte forma: uma carta, ao ser selecionada, fica com a borda circundada de cinza claro,
+                e sua face que estava virada é revelada. Desta maneira, o jogador pode distinguir as cartas selecionadas das normais;
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="tm-activity-block">
+            <div class="tm-activity-block-text">
+              <h3 class="tm-text-blue">Matches</h3>
+              <p style="text-align:justify">
+                Para se obter um match (combinação), é necessario selecionar duas cartas. Se as faces viradas dessas cartas de imagem-palavra
+                corresponderem, elas ficarão com uma borda verde assinalada ao seu redor e ficarão viradas pelos resto da jogo.
+                Caso contrario, se as faces viradas não corresponderem, as bordas serão assinaladas de cinza e, ao selecionar uma
+                nova carta, as duas não correpondentes serão reviradas e voltarão com a imagem do verso;
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="tm-activity-block mr-lg-0 ml-lg-auto">
+            <div class="tm-activity-block-text">
+              <h3 class="tm-text-blue">Fim de Jogo</h3>
+              <p style="text-align:justify">
+                O jogo é composto de quarenta cartas, sendo vinte pares de imagem-palavra. Para que o jogo seja finalizado,
+                o jogador deve obter 20 matches, assim, todo o baralho deve estar virado e com o match confirmado. Após isso,
+                será mostrada a tela de fim de jogo e dada a opção de jogar novamente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="container tm-company-section" id="sobre">
+      <div class="row">
+        <div class="col-12">
+          <div class="tm-parallax">
+            <header class="tm-parallax-header">
+              <h2 class="">Sobre Nós</h2>
+            </header>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="tm-activity-block">
+            <div class="tm-activity-block-text">
+              <h3 class="tm-text-blue">Inicio</h3>
+              <p style="text-align:justify">
+                Somos um pequeno grupo interdisciplinar, que foca na produção de
+                material para o aluno surdo e também em formas de dinamizar as aulas
+                com material diferênciado.
+              </p>
+              <p class="mb-4" style="text-align:justify">
+                Desde 2015 até o momento atual, o projeto de integração do surdo tem tido o apoio de
+                bolsistas e voluntários, tanto do ensino médio quanto do ensino superior, para auxiliar no
+                processo de produção de atividades voltadas para o ensino interdisciplinar (português, física e
+                matemática).
+              </p>
+              <p style="text-align:justify">
+                Além disso, o projeto teve apoio de dois intérpretes de LIBRAS: Thiago Martins de Oliveira e
+                Andréia de Oliveira Pena, que foram fundamentais para a aplicação das atividades, dando
+                grande suporte no entendimento e solicitações dos alunos.
+              </p>
+              <p style="text-align:justify">
+                Atualmente, o projeto está focado em organizar e aprimorar todas as atividades já propostas e
+                disponibilizá-las na internet. Na plataforma de ensino (http://www.projetozk.com/).
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="tm-activity-block mr-lg-0 ml-lg-auto">
+            <div class="tm-activity-block-text">
+              <p style="text-align:justify">
+                O projeto desenvolve a capacidade de se trabalhar em equipe, e em prol do próximo,
+                desenvolvendo também a capacidade de entender a importância de contribuir para o bem
+                comum.
+              </p>
+              <p style="text-align:justify">
+                O projeto desenvolve a capacidade de se trabalhar em equipe, e em prol do próximo,
+                desenvolvendo também a capacidade de entender a importância de contribuir para o bem
+                comum.
+              </p>
+              <p style="text-align:justify">
+                O projeto já atendeu 10 estudantes surdos que cursavam o Ensino Médio, de três escolas de
+                Juiz de Fora, as quais não contavam com intérpretes. Esse projeto os auxiliou no entendimento
+                de suas disciplinas escolares e os preparou para os vestibulares. Alguns alunos passaram nos
+                vestibulares e são hoje alunos da Universidade Federal de Juiz de Fora no curso de
+                Letras-Libras. Dentre eles, Mirella de Olivera Pena Araújo, a primeira aluna surda a ingressar
+                na UFJF. (https://www.ufjf.br/letraslibras/2015/11/06/letras-libras-recebe-primeira-aluna-surda/)
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    </section>
+
+    <section class="container tm-company-section" id="contato">
+
+        <div class="row">
+          <div class="col-12">
+            <div class="tm-parallax">
+              <header class="tm-parallax-header">
+                <h2 class="">Contate-Nos</h2>
+              </header>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="tm-activity-block">
+              <div class="tm-activity-block-text">
+                <h3 class="tm-text-blue">Contato</h3>
+                <p style="text-align:justify">
+                  Os membros do nosso projeto disponibilizam aqui seu contato,
+                  tanto os coordenadores quanto os participantes do projeto.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="tm-activity-block mr-lg-0 ml-lg-auto">
+              <div class="tm-activity-block-text">
+                <form>
+                Caso queira nos contatar:
+                <select name="contacts" onchange="showAnything(this.value)">
+                  <option  value="coordenadores">Coordenação</option>
+                  <option  value="participantes">Participantes</option>
+                </select>
+                <p><span id="txtvalor"></span></p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </section>
+
+        <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+
+    <footer class="container tm-footer">
+      <div class="row tm-footer-row">
+        <p class="col-md-10 col-sm-12 mb-0">
+          Copyright &copy; 2018 IF Sudeste MG - Design:
+          <a rel="nofollow" href="https://www.ifsudestemg.edu.br/" class="tm-footer-link">IF Sudeste MG</a>
+        </p>
+        <div class="col-md-2 col-sm-12 scrolltop">
+          <div class="scroll icon"><i class="fa fa-4x fa-angle-up"></i></div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="clientvalor.js"></script>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <!-- Single Page Nav plugin works with this version of jQuery -->
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/proLine.js"></script>
+
+  </body>
+</html>
